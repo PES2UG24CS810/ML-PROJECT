@@ -1,0 +1,18 @@
+# Core Streamlit application and data handling
+streamlit
+pandas
+numpy
+
+# Machine Learning and Feature Engineering
+scikit-learn
+joblib
+
+# Text Processing (used in main.py)
+nltk
+
+# Fuzzy Matching for dataset check (used in app.py)
+rapidfuzz
+
+# Visualization (used in main.py)
+matplotlib
+seaborn
