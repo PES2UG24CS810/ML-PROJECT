@@ -30,6 +30,7 @@ This helps in maintaining healthy discussions and improving community moderation
 * Train ML models (Logistic Regression, Random Forest, Light Neural Network)
 * Evaluate performance using Accuracy, Precision, Recall, and F1-Score
 * Visualize results with confusion matrices and feature importance graphs
+* We made GUI to predict sincere or insincere questions
 
 ---
 
@@ -76,6 +77,7 @@ If no dataset is found, the script will automatically use a sample dataset.
 ### *Step 4: Run the Project*
 
 python main.py
+streamlit run app.py
 
 ---
 
@@ -83,13 +85,17 @@ python main.py
 
 | Model                | Accuracy | Precision | Recall | F1 Score |
 | -------------------- | -------- | --------- | ------ | -------- |
-| Logistic Regression  | 89.9%     | 0.35      | 0.52   | 0.42     |
-| Random Forest        | 93.35%     | 0.71      | 0.09   | 0.15     |
-| Light Neural Network | 92.55%     | 0.43      | 0.21   | 0.28     |
+| Logistic Regression  | 90.15%     | 0.37      | 0.63   | 0.46     |
+| Random Forest        | 93.35%     | 0.56      | 0.07   | 0.12     |
+| Light Neural Network | 92.8%     | 0.44      | 0.25   | 0.32     |
 
 ✅ Perfect performance on the test dataset
 ✅ Fast inference (~45ms per prediction)
 ✅ Lightweight and deployment-ready (~2MB model size)
+
+
+For GUI :
+        run "streamlit run app.py", the web page will open with GUI of project 
 
 ---
 
