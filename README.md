@@ -76,8 +76,8 @@ If no dataset is found, the script will automatically use a sample dataset.
 
 ### *Step 4: Run the Project*
 
-python main.py
-streamlit run app.py
+* python main.py
+* streamlit run app.py
 
 ---
 
